@@ -1,0 +1,20 @@
+# ---- Keil MDK build output ----
+test1/MDK-ARM/test1/
+*.o
+*.d
+*.axf
+*.map
+*.lnp
+*.sct
+*.dep
+build_log.htm
+
+# Keil 的工程备份和用户配置
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+*.bak
+
+# 编译产物目录（如果有其它构建目录）
+**/Objects/
+**/Listings/
